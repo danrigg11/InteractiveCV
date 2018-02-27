@@ -53,7 +53,7 @@ And {}, Lastly my work experiences:
 Thank you {} for youre time today please find my contact details below.
 {}
 """
-Output = string.format(name,age,love,skills,grades,name,experience,name,contactdetails)
+Output = string.format(name,age,love,skills,grades,name,experience,name,contactdetails).strip()
 
 #Print output on screen
 print(Output)
